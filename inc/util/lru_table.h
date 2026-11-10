@@ -15,7 +15,6 @@
  */
 
 #ifdef CHAMPSIM_MODULE
-#error "Modules should include msl/lru_table.h"
 #endif
 
 #ifndef UTIL_LRU_TABLE_H
