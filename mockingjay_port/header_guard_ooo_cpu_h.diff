@@ -1,0 +1,10 @@
+--- /home/student/PACIPV_ChampSim/inc/ooo_cpu.h	2026-11-09 13:28:46.599759585 +0530
++++ inc/ooo_cpu.h	2026-11-10 00:12:49.396039162 +0530
+@@ -185,6 +185,7 @@
+ 
+   void print_deadlock() final;
+ 
++#define CHAMPSIM_LEGACY_replacementDmockingjay // port: CACHE-only declarations cannot appear inside O3_CPU
+ #include "module_decl.inc"
+ 
+   struct branch_module_concept {
